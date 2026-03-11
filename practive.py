@@ -4,4 +4,5 @@ for i in range(5):
     marks.append(mark)
 average = sum(marks) / len(marks)
 print("Average mark:", average)
-print(marks)
+arranged_marks = sorted(marks)
+print(arranged_marks)
