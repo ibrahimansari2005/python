@@ -1,0 +1,8 @@
+def cars():
+      return["Toyota", "Honda", "Ford"]
+def bikes():
+        return["Yamaha", "Suzuki", "Kawasaki"]
+for car in cars():
+       print(car)
+for bike in bikes():    
+         print(bike)
